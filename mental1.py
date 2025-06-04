@@ -11,7 +11,7 @@ def get_base64(image_path):
         data = f.read()
     return base64.b64encode(data).decode()
 
-bin_str = get_base64("background.png.jpg")
+bin_str = get_base64("background.png")
 
 # CSS styling for background and buttons
 st.markdown(
